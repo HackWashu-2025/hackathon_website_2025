@@ -3,19 +3,17 @@
 <template>
     <div class="sponsor-parent" id="sponsor">
         <div class="left-sponsor">
-            <div class="star-sponsor-img"></div>
-            <div class="star-title">STAR</div>
-            <img src="/src/assets/mastercard.png" class="rga-logo" alt="rga-logo" />
-
+            <h1>SPONSORS</h1>
         </div>
         <div class="right-sponsor">
-            <div class="sponsor-title">SPONSORS</div>
-            <div class="celestial-title">CELESTIAL</div>
-            <img src="/src/assets/ab-tech-smaller.png" class="ab-tech-logo" alt="ab-tech-logo" />
-            <img src="/src/assets/rga.png" class="mastercard-logo" alt="mastercard-logo" />
+            <img src="/src/assets/rga.png" class="rga-logo" alt="rga-logo" />
+            <img src="/src/assets/roblox_logo.png" class="roblox-logo" alt="roblox-logo" />
         </div>
+        <p class="sponsor-comment">These cool companies/orgs might also show up…
+            - Mastercard, Anheuser-Busch, DI2, and more!
+        </p>
     </div>
-    
+  
 </template>
 
 <style scoped>
@@ -23,57 +21,56 @@
     display: flex;
     height: 100vh;
     border-bottom: 0.5vh solid black;
+    position: relative;
 }
 .left-sponsor{
-    flex: 38%;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    padding-top: 20vh
+    z-index: 2;
+    position: relative;
+    width: 20%;
+    height: auto;
+    border-right: 0.25vw solid black;
 }
+.left-sponsor h1{
+    z-index: 2;
+    position: absolute;
+    font-family: 'pf-videotext';
+    font-size: 6vw;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    transform: rotate(-90deg);
+    transform-origin: 0 0;
+    display: inline-block;
+    margin-top: 60vh;
+    margin-left: 15vw;
+}
+
 
 .right-sponsor{
-    border-left: 0.25vw solid black;
-    flex: 62%;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    width: 80%;
+    height: auto;
 }
 
-.star-sponsor-img{
-    height: 22vh;
-    width: 15vw;
-    margin-left: 1.5vw;
-    margin-top: 4.4vh;
-    background-color: rgb(195, 163, 226);
-    display: none;
-}
-
-.star-title{
-    font-size: 3.5vw;
-    margin-top: 4vh;
-    margin-bottom: 1vw;
-    font-family: pf-videotext;
-    justify-content: center;
-    text-align: center;
-}
-
-.star-sponsor-list{
-    display: grid;
-    grid-template-columns: auto;
-    width: 100%;
-    text-align: left;
-    margin-left: 1.5vw;
-    margin-top: 5.8vh;
-
-
-}
 
 .rga-logo{
-    width: 15vw;
-    height: 15vw;
+    position: relative;
+    left: 10vw;
+    top: 10vh;
+    width:18vw;
+    height: 18vw;
     display: flex;
-    align-self: center;
+    justify-content: center;
+    align-items: center;
+}
+.roblox-logo{
+    position: relative;        
+    top: 55vh;  
+    left: 37vw;  
+    width: 18vw;
+    height: 18vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .sponsor-title{
@@ -89,96 +86,77 @@
     left: 36.5%;
 
 }
-
-.celestial-sponsors{
-    display: flex;
-    flex-direction: column;
+.sponsor-comment {
+    position: absolute;
+    top: 90vh;  
+    left: 50vw;  
+    font-size: 2vw;
+    font-family: 'pf-videotext', sans-serif;
+    opacity: 0.6;
+    color: #000;
 }
 
-.celestial-title{
-    font-size: 3.5vw;
-    margin-top: 4vh;
-    font-family: pf-videotext;
-    text-align: center;
-    width: 100%;
-}
 
-.ab-tech-logo{
-    position: relative;
-    left: 7vw;
-    width: 50vw;
-    height: 28vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.mastercard-logo{
-    position: relative;
-    left: 7vw;
-    bottom: 10vh;
-    width:25vw;
-    height: 25vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 2vh;
-}
-
-.sponsor-list{
-    display: grid;
-    grid-template-columns: auto;
-    width: 100%;
-    height: 90%;
-    text-align: left;
-    align-items: center;
-    justify-content: center;
-    margin-top: 3vh;
-    font-family: open-sans;
-    font-size: 1vw;
-}
 
 @media (max-width: 700px) {
-    .sponsor-parent{
+    .sponsor-parent {
         border-bottom: solid 0.7vw black;
         height: 65vh;
         background-color: #FFFFFF;
+        flex-direction: column;
+        align-items: center;
     }
-    .star-sponsor-img{
-        display: none;
+
+    .left-sponsor {
+        width: 100%;
+        border-right: none;
+        border-bottom: 0.5vw solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-    .star-title{
-        font-size: 7vw;
+
+    .left-sponsor h1 {
+        position: relative;
+        transform: none;
+        margin: 0;
+        font-size: 11vw;
     }
-    .rga-logo{
-        width: 30vw;
-        height: 30vw;
+
+    .right-sponsor {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding-top: 4vh;
+        gap: 5vh;
     }
-    .right-sponsor{
-        border-left: solid 0.7vw black;
-        padding-right: 0.1vw;
+
+    .rga-logo {
+        width: 35vw;
+        height: 35vw;
+        position: relative;
+        left: 0;
+        top: 0;
     }
-    .sponsor-title{
-        left: 38%;
-        font-size: 11.5vw;
+
+    .roblox-logo {
+        width: 35vw;
+        height: 35vw;
+        position: relative;
+        left: 0;
+        top: 0;
     }
-    .celestial-title{
-        font-size: 7vw;
-        margin-top: 8vh;
+    .sponsor-comment {
+    font-size: 3vw;
+    bottom: 1vh;
+    right: 3vw;
     }
-    .ab-tech-logo{
-        width: 55vw;
-        height: 34vw;
-        left: 6vw;
-        top: 7vh;
-    }
-    .mastercard-logo{
-        width: 45vw;
-        height: 45vw;
-        top: 10vh;
-        left: 0vh;
-    }
+
 }
+
 
 
 </style>

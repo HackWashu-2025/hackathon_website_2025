@@ -47,8 +47,9 @@ onBeforeUnmount(() => {
   <div class="title">
     <div class="left-body">
       <div class="left-body-text">
-        <h1>HACK <br> WASHU‘24</h1>
+        <h1>HACK <br> WASHU‘25</h1>
         <p>OCT 18-20</p>
+        <p> Hosted by HackWashU x NRT AI-Access</p>
       </div>
       <div class="timer-text">
         <h2>SIGN UP FOR <span class="big"> ADVENTURE </span> IN </h2>
