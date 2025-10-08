@@ -189,25 +189,25 @@ onBeforeUnmount(() => {
 }
 
 .days{
-    margin-top: 2vw;
+    margin-top: 1vw;
     display: flex;
     flex-direction: column;
 }
 
 .hours{
-    margin-top: 3vw;
-    display: flex;
-    flex-direction: column;
-}
-
-.minutes{
     margin-top: 2vw;
     display: flex;
     flex-direction: column;
 }
 
+.minutes{
+    margin-top: 1vw;
+    display: flex;
+    flex-direction: column;
+}
+
 .seconds{
-    margin-top: 4vw;
+    margin-top: 2vw;
     display: flex;
     flex-direction: column;
 }
