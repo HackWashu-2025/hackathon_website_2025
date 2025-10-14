@@ -1,23 +1,33 @@
 <script setup lang="ts"></script>
 
 <template>
-<div class="apply" id="apply">
-  <h1 class="title">FULFILL YOUR DESTINY.</h1>
-  <div class="apply-button"><a href="https://airtable.com/app392TbnZ0FyfCrx/shri163yPRymBZXwJ?prefill_Event=2025-09-05%20%7C%20Skandalaris%20Hackathon" style="text-decoration: none;">APPLY NOW!!</a></div>
-  <p>(PRESS TO START)</p>
-</div>
+  <div class="workshop" id="workshop">
+    <h1 class="title">No experience? No worries! Join the workshops.</h1>
+    <div class="workshop-button">
+      <a
+        href="https://hackwash.com/workshop"
+        style="text-decoration: none;"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        WORKSHOP LINK
+      </a>
+    </div>
+    <p>(CLICK TO JOIN)</p>
+  </div>
 </template>
- 
+
 <style scoped>
-.apply {
+.workshop {
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 52vh;
   padding-top: 25vh;
+  border-bottom: 0.25vw solid black;
 }
 
-.apply-button {
+.workshop-button {
   background-color: #64D3F5;
   border: 0.2vw solid black;
   padding: 2.1vw 3vw 2.05vw 3vw;
@@ -26,7 +36,7 @@
   font-size: 2.75vw;
 }
 
-.apply-button:hover {
+.workshop-button:hover {
   background-color: #C5D2CE;
   transition: ease-in 0.5s;
 }
@@ -36,6 +46,7 @@
   font-size: 4.25vw;
   color: black;
   font-weight: 400;
+  text-align: center;
 }
 
 p {
@@ -46,7 +57,7 @@ p {
 }
 
 @media (max-width: 700px) {
-  .apply {
+  .workshop {
     background-color: #FFFFFF;
     height: 40vh;
     padding-top: 12vh;
@@ -55,7 +66,7 @@ p {
     border-bottom: solid 0.7vw black;
   }
 
-  .apply-button {
+  .workshop-button {
     margin-top: 6.2vh;
     padding: 4vw 6vw 4vw 6vw;
     font-size: 8.2vw;
