@@ -52,7 +52,7 @@ onBeforeUnmount(() => {
         <p> Hosted by SKANDALARIS x HackWashU x MAYFIELD x NRT AI-Access </p>
       </div>
       <div class="timer-text">
-        <h2>SIGN UP FOR <span class="big"> ADVENTURE </span> IN </h2>
+        <h2>SIGN UP FOR <span class="big"> NEW ADVENTURE </span> </h2>
       </div>
       <div class="time" v-if="timeRemaining">
         <div class="days">

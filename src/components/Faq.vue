@@ -29,7 +29,7 @@ export default {
           answer: "Hack WashU will be in person. Please plan to be in St. Louis, MO for the whole weekend."
         },
         {
-          question: "IS HACK WASHU FREE?",
+          question: "IS WASHU HACKATHON FREE?",
           answer: "YES!!! It's not just free, it rewards you! You will be able to collect swag, partake in workshops and speaker sessions, work with mentors, network with our sponsors, and more!"
         },
         {

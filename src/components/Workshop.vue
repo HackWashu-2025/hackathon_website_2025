@@ -1,17 +1,17 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { RouterLink } from "vue-router";
+</script>
 
 <template>
   <div class="workshop" id="workshop">
     <h1 class="title">No experience? No worries! Join the workshops.</h1>
     <div class="workshop-button">
-      <a
-        href="https://hackwash.com/workshop"
-        style="text-decoration: none;"
-        target="_blank"
-        rel="noopener noreferrer"
+      <RouterLink
+        to="/workshops"
+        style="text-decoration: none; color: inherit;"
       >
         WORKSHOP LINK
-      </a>
+      </RouterLink>
     </div>
     <p>(CLICK TO JOIN)</p>
   </div>
