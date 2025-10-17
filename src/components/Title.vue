@@ -47,9 +47,9 @@ onBeforeUnmount(() => {
   <div class="title">
     <div class="left-body">
       <div class="left-body-text">
-        <h1>HACK <br> WASHU‘25</h1>
+        <h1>WASHU <br> HACKATHON‘25</h1>
         <p>OCT 24-26</p>
-        <p> Hosted by HackWashU x NRT AI-Access</p>
+        <p> Hosted by SKANDALARIS x HackWashU x MAYFIELD x NRT AI-Access </p>
       </div>
       <div class="timer-text">
         <h2>SIGN UP FOR <span class="big"> ADVENTURE </span> IN </h2>
@@ -107,7 +107,7 @@ onBeforeUnmount(() => {
 }
 
 .left-body-text h1 {
-    font-size: 8.5vw;
+    font-size: 8vw;
     font-family: 'pf-videotext';
     color: black;
     font-weight: 400;

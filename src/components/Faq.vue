@@ -25,7 +25,7 @@ export default {
         //   answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         // },
         {
-          question: "IS HACK WASHU IN-PERSON?",
+          question: "IS WASHU HACKATHON IN-PERSON?",
           answer: "Hack WashU will be in person. Please plan to be in St. Louis, MO for the whole weekend."
         },
         {
