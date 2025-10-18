@@ -17,17 +17,22 @@
       </button>
 
       <button class="workshop-button">
+        <a href="https://github.com/Hack-WashU/Web-Basics-Workshop" style="text-decoration: none; color: inherit;">
         <div class="button-content">
           <span class="title">WORKSHOP 2 — Web Basics (HTML / CSS / JavaScript)</span>
           <span class="description">Build and style your first web page from scratch.</span>
         </div>
+        </a>
       </button>
 
       <button class="workshop-button">
+        <a href="https://github.com/ngethan/hackwashu-fullstack-workshop-template" style="text-decoration: none; color: inherit;">
         <div class="button-content">
-          <span class="title">WORKSHOP 3 — Next.js & Full-stack</span>
+          <span class="title">WORKSHOP 3 — Full-stack</span>
+          <span class="description">Learn how to build and integrate front-end and back-end of web application.</span>
           <span class="description"></span>
         </div>
+        </a>
       </button>
 
       <button class="workshop-button">
