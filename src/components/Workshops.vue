@@ -13,6 +13,7 @@
             <span class="title">WORKSHOP 1 — Git & Terminal Basics</span>
             <span class="description">Learn how to manage projects and collaborate using Git and the command line</span>
           </div>
+          <span class="description">Office hour: 6:40 pm - 8:40 pm on Oct 22nd</span>
         </a>
       </button>
 
@@ -22,6 +23,7 @@
           <span class="title">WORKSHOP 2 — Web Basics (HTML / CSS / JavaScript)</span>
           <span class="description">Build and style your first web page from scratch.</span>
         </div>
+        <span class="description">Office hour: Coming soon</span>
         </a>
       </button>
 
@@ -30,8 +32,8 @@
         <div class="button-content">
           <span class="title">WORKSHOP 3 — Full-stack</span>
           <span class="description">Learn how to build and integrate front-end and back-end of web application.</span>
-          <span class="description"></span>
         </div>
+        <span class="description">Office hour: 6:00 pm - 8:00 pm on Oct 22nd</span>
         </a>
       </button>
 
@@ -41,6 +43,7 @@
             <span class="title">WORKSHOP 4 — Data Management</span>
             <span class="description">Understand how to store, process, and visualize data effectively.</span>
           </div>
+          <span class="description">Office hour: 1:00 pm - 3:00 pm on Oct 24th</span>
         </a>
       </button>
     </div>
