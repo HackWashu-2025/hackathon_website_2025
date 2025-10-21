@@ -49,7 +49,7 @@ onBeforeUnmount(() => {
       <div class="left-body-text">
         <h1>WASHU <br> HACKATHON‘25</h1>
         <p>OCT 24-26</p>
-        <p> Hosted by SKANDALARIS x HackWashU x MAYFIELD x NRT AI-Access </p>
+        <p> Hosted by SKANDALARIS x HackWashU x MAYFIELD </p>
       </div>
       <div class="timer-text">
         <h2>SIGN UP FOR <span class="big"> NEW ADVENTURE </span> </h2>
@@ -244,7 +244,7 @@ onBeforeUnmount(() => {
     padding: 0 6vw 0 0;
   }
   .left-body-text h1{
-    font-size: 16vw;
+    font-size: 13vw;
   }
   .left-body-text p{
     font-size: 6vw;
