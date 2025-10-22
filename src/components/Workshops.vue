@@ -4,6 +4,10 @@
   <div class="workshops" id="workshops">
     <div class="header">
       <h1>JOIN OUR WORKSHOPS</h1>
+      <p class="subtitle">
+        Our workshops are in book-club format, so you can do them asynchronously on your own time! 
+        Click the buttons below to access the workshop repositories.
+      </p>
     </div>
 
     <div class="workshops-grid">
@@ -152,9 +156,21 @@
   text-align: center;
   color: #0800ff;
 }
+.subtitle {
+  font-family: 'open-sans';
+  font-size: 1.2vw;
+  text-align: center;
+  margin-top: 1vh;
+  color: #333;
+}
+
+
 
 /* Mobile */
 @media (max-width: 700px) {
+  .subtitle {
+    font-size: 3.5vw;
+  }
   .workshops-grid {
     grid-template-columns: 1fr;
     gap: 5vh;
