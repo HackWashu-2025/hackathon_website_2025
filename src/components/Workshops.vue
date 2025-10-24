@@ -64,6 +64,9 @@
           </a>
         </button>
         <span class="office-hour">Office hour: 1:00 pm - 3:00 pm on Oct 24th</span>
+            <a href="https://wustl.zoom.us/j/99902163606" style="text-decoration: none; color: inherit;"> 
+                <span class="office-hour-link">OH Zoom link</span>
+            </a>
       </div>
     </div>
   </div>
